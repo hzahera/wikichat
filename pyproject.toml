@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dice-wiki-chat"
+version = "0.2.0"
+description = "Lightweight, self-hosted chatbot that answers questions from any MediaWiki, with sources"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+keywords = ["mediawiki", "wiki", "chatbot", "rag", "llm", "ollama", "search"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Framework :: FastAPI",
+  "Topic :: Text Processing :: Indexing",
+  "Intended Audience :: Science/Research",
+]
+dependencies = [
+  "requests>=2.31",
+  "mwparserfromhell>=0.6",
+  "rank-bm25>=0.2.2",
+  "numpy>=1.24",
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.27",
+  "pydantic-settings>=2.2",
+  "typer>=0.12",
+  "httpx>=0.27",
+  "keyring>=24",
+]
+
+[project.optional-dependencies]
+embeddings = ["fastembed>=0.3"]
+dev = ["pytest>=8", "ruff>=0.5", "pip-audit>=2.7"]
+
+[project.scripts]
+wikichat = "wikichat.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/dice-group/dice-wiki-chat"
+Issues = "https://github.com/dice-group/dice-wiki-chat/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wikichat"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501", "B008"]

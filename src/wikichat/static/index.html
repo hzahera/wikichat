@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Wiki Assistant</title>
+  <link rel="icon" type="image/svg+xml" href="/static/brand/favicon.svg" />
+  <link rel="stylesheet" href="/static/app.css?v=0.2.0" />
+  <script src="/static/vendor/marked.min.js?v=0.2.0" defer></script>
+  <script src="/static/vendor/purify.min.js?v=0.2.0" defer></script>
+  <script src="/static/app.js?v=0.2.0" defer></script>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar" aria-label="Conversations">
+      <div class="brand">
+        <img class="logo" src="/static/brand/logo.svg" alt="" width="36" height="36" />
+        <div class="brand-text">
+          <div class="brand-name" id="botName">Wiki Assistant</div>
+          <div class="brand-sub" id="brandSub">Ask the wiki</div>
+        </div>
+      </div>
+
+      <button class="new-chat" id="newChat" type="button">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        New chat
+      </button>
+
+      <nav class="side-section">
+        <div class="side-title">Recent</div>
+        <ul class="history" id="history"></ul>
+      </nav>
+
+      <div class="status" id="status">
+        <div class="status-row"><span class="dot" id="statusDot"></span><span id="statusText">Connecting...</span></div>
+        <div class="status-meta" id="statusMeta"></div>
+      </div>
+
+      <a class="org" id="orgLink" target="_blank" rel="noopener noreferrer" hidden>
+        <img id="orgLogo" alt="" hidden />
+        <span id="orgName"></span>
+        <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn mobile-only" id="menuBtn" type="button" aria-label="Open conversations">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <div class="topbar-title" id="chatTitle">New conversation</div>
+        <div class="topbar-actions">
+          <a class="icon-btn" id="wikiLink" target="_blank" rel="noopener noreferrer" title="Open the wiki" aria-label="Open the wiki">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 5.5C6.5 4 9.5 4 12 6c2.5-2 5.5-2 8-.5V19c-2.5-1.5-5.5-1.5-8 .5-2.5-2-5.5-2-8-.5z M12 6v13.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </a>
+          <button class="icon-btn" id="themeBtn" type="button" title="Light or dark" aria-label="Switch light or dark mode">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <section class="chat" id="chat" aria-live="polite">
+        <div class="welcome" id="welcome">
+          <img class="welcome-logo" src="/static/brand/logo.svg" alt="" width="64" height="64" />
+          <h1 id="welcomeTitle">Hi, what would you like to know?</h1>
+          <p id="welcomeText">I search every page of the wiki and answer with links to the sources.</p>
+          <div class="suggestions" id="suggestions"></div>
+        </div>
+        <div class="messages" id="messages"></div>
+      </section>
+
+      <footer class="composer-wrap">
+        <form class="composer" id="composer">
+          <label class="sr-only" for="input">Your question</label>
+          <textarea id="input" rows="1" maxlength="4000" placeholder="Ask the wiki..."></textarea>
+          <button type="submit" class="send" id="sendBtn" aria-label="Send"></button>
+        </form>
+        <div class="hint">Answers come from the wiki only. Check the linked page for anything important. <span class="keys"><span class="kbd">Enter</span> to send, <span class="kbd">Shift + Enter</span> for a new line.</span></div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

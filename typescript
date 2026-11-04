@@ -1,0 +1,126 @@
+Script started on Wed Nov  4 01:18:52 2026
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[Jhamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004h[7m  ls ~/Downloads/dice-wiki-cha[7mt[7m/scripts[27m[K
+[K[A[A[50C[27m [27m [27ml[27ms[27m [27m~[27m/[27mD[27mo[27mw[27mn[27ml[27mo[27ma[27md[27ms[27m/[27md[27mi[27mc[27me[27m-[27mw[27mi[27mk[27mi[27m-[27mc[27mh[27mat[27m/[27ms[27mc[27mr[27mi[27mp[27mt[27ms[1B[K[?2004l
+service.sh	setup.sh	start.sh
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[Jhamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004hssc
+[Jsc_auth          sccmap           screen           scutil
+sc_usage         sched            screencapture    
+scandeps.pl      scor2prt         script           
+scandeps5.34.pl  scp              scselect         [4A[0m[27m[24m[50Csc[Ks  SScri
+[J[A[54C  S  [7m  scripts/start.sh[27m[18D[27m [27m [27ms[27mc[27mr[27mi[27mp[27mt[27ms[27m/[27ms[27mt[27ma[27mr[27mt[27m.[27ms[27mh[?2004l
+[JStarting DICE Wiki Chat at http://127.0.0.1:8000 (Ctrl + C to stop)
+[32mINFO[0m:     Started server process [[36m5935[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     127.0.0.1:51352 - "[1mGET /api/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51353 - "[1mGET /api/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51353 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51353 - "[1mGET /api/status HTTP/1.1[0m" [32m200 OK[0m
+^C[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m5935[0m]
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[Jhamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004h[7mscripts/service.sh stop 2>/dev[7m/[7mnull; pkill -f "wikichat serve"[27m[K[A[18C[27ms[27mc[27mr[27mi[27mp[27mt[27ms[27m/[27ms[27me[27mr[27mv[27mi[27mc[27me[27m.[27ms[27mh[27m [27ms[27mt[27mo[27mp[27m [27m2[27m>[27m/[27md[27me[27mv/[27mn[27mu[27ml[27ml[27m;[27m [27mp[27mk[27mi[27ml[27ml[27m [27m-[27mf[27m [27m"[27mw[27mi[27mk[27mi[27mc[27mh[27ma[27mt[27m [27ms[27me[27mr[27mv[27me[27m"[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[Jhamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004h[7mscripts/service.sh stop 2>/dev[7m/[7mnull; pkill -f "wikichat serve"[27m[K[A[18C[27ms[27mc[27mr[27mi[27mp[27mt[27ms[27m/[27ms[27me[27mr[27mv[27mi[27mc[27me[27m.[27ms[27mh[27m [27ms[27mt[27mo[27mp[27m [27m2[27m>[27m/[27md[27me[27mv/[27mn[27mu[27ml[27ml[27m;[27m [27mp[27mk[27mi[27ml[27ml[27m [27m-[27mf[27m [27m"[27mw[27mi[27mk[27mi[27mc[27mh[27ma[27mt[27m [27ms[27me[27mr[27mv[27me[27m"[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[Jhamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004h[7mscripts/service.sh stop 2>/dev[7m/[7mnull; pkill -f "wikichat serve"[27m[K[A[18C[27ms[27mc[27mr[27mi[27mp[27mt[27ms[27m/[27ms[27me[27mr[27mv[27mi[27mc[27me[27m.[27ms[27mh[27m [27ms[27mt[27mo[27mp[27m [27m2[27m>[27m/[27md[27me[27mv/[27mn[27mu[27ml[27ml[27m;[27m [27mp[27mk[27mi[27ml[27ml[27m [27m-[27mf[27m [27m"[27mw[27mi[27mk[27mi[27mc[27mh[27ma[27mt[27m [27ms[27me[27mr[27mv[27me[27m"[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[Jhamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004h[7m^M[27m[27m [27m [7m^[[27m[200~scripts/service.sh stop [K  2>/dev/null; pkill -f "wikichat serve"~ [A[11C[7P[23C 2>/dev/[7P[31C       [A[18C  scripts/start[4C[K[1B[K[A[68C[18D[P[P[9Cervice.sh stop 2>/dev/null; pkill -f "wikichat serve"[K[A[18C[7m^[7m[[27m[200~scripts/service.sh stop 2>/dev/nu[2C; pkill -f "wikichat serve"[A[11C[7P[23C 2>/dev/[7P[31C       [A[18C  scripts/start[4C[K[1B[K[A[68C                [7mscripts/service.sh stop 2>/dev[7m/[7mnull; pkill -f "wikichat serve"[27m[K[A[18C[27ms[27mc[27mr[27mi[27mp[27mt[27ms[27m/[27ms[27me[27mr[27mv[27mi[27mc[27me[27m.[27ms[27mh[27m [27ms[27mt[27mo[27mp[27m [27m2[27m>[27m/[27md[27me[27mv/[27mn[27mu[27ml[27ml[27m;[27m [27mp[27mk[27mi[27ml[27ml[27m [27m-[27mf[27m [27m"[27mw[27mi[27mk[27mi[27mc[27mh[27ma[27mt[27m [27ms[27me[27mr[27mv[27me[27m"[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[Jhamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004hssource [7m.venv/bin/activate[27m[18D[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27ma[27mc[27mt[27mi[27mv[27ma[27mt[27me[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[J(.venv) hamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004h[7mpython -m pip install [7m-[7me .[27m[K
+[K[A[A[58C[27mp[27my[27mt[27mh[27mo[27mn[27m [27m-[27mm[27m [27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m -[27me[27m [27m.[1B[K[?2004l
+Obtaining file:///Users/hamadazahera/Downloads/dice-wiki-chat
+  Installing build dependencies ... [?25l- \ done
+[?25h  Checking if build backend supports build_editable ... [?25ldone
+[?25h  Getting requirements to build editable ... [?25ldone
+[?25h  Installing backend dependencies ... [?25l- done
+[?25h  Preparing editable metadata (pyproject.toml) ... [?25ldone
+[?25hRequirement already satisfied: fastapi>=0.110 in ./.venv/lib/python3.12/site-packages (from dice-wiki-chat==0.2.0) (0.162.0)
+Requirement already satisfied: httpx>=0.27 in ./.venv/lib/python3.12/site-packages (from dice-wiki-chat==0.2.0) (0.28.1)
+Requirement already satisfied: keyring>=24 in ./.venv/lib/python3.12/site-packages (from dice-wiki-chat==0.2.0) (25.7.0)
+Requirement already satisfied: mwparserfromhell>=0.6 in ./.venv/lib/python3.12/site-packages (from dice-wiki-chat==0.2.0) (0.7.2)
+Requirement already satisfied: numpy>=1.24 in ./.venv/lib/python3.12/site-packages (from dice-wiki-chat==0.2.0) (2.5.4)
+Requirement already satisfied: pydantic-settings>=2.2 in ./.venv/lib/python3.12/site-packages (from dice-wiki-chat==0.2.0) (2.16.2)
+Requirement already satisfied: rank-bm25>=0.2.2 in ./.venv/lib/python3.12/site-packages (from dice-wiki-chat==0.2.0) (0.2.2)
+Requirement already satisfied: requests>=2.31 in ./.venv/lib/python3.12/site-packages (from dice-wiki-chat==0.2.0) (2.34.2)
+Requirement already satisfied: typer>=0.12 in ./.venv/lib/python3.12/site-packages (from dice-wiki-chat==0.2.0) (0.27.3)
+Requirement already satisfied: uvicorn>=0.27 in ./.venv/lib/python3.12/site-packages (from uvicorn[standard]>=0.27->dice-wiki-chat==0.2.0) (0.54.0)
+Requirement already satisfied: starlette>=0.46.0 in ./.venv/lib/python3.12/site-packages (from fastapi>=0.110->dice-wiki-chat==0.2.0) (1.10.0)
+Requirement already satisfied: pydantic>=2.9.0 in ./.venv/lib/python3.12/site-packages (from fastapi>=0.110->dice-wiki-chat==0.2.0) (2.14.2)
+Requirement already satisfied: typing-extensions>=4.8.0 in ./.venv/lib/python3.12/site-packages (from fastapi>=0.110->dice-wiki-chat==0.2.0) (4.16.0)
+Requirement already satisfied: typing-inspection>=0.4.2 in ./.venv/lib/python3.12/site-packages (from fastapi>=0.110->dice-wiki-chat==0.2.0) (0.4.4)
+Requirement already satisfied: annotated-doc>=0.0.2 in ./.venv/lib/python3.12/site-packages (from fastapi>=0.110->dice-wiki-chat==0.2.0) (0.0.5)
+Requirement already satisfied: opentelemetry-api>=1.44.0 in ./.venv/lib/python3.12/site-packages (from fastapi>=0.110->dice-wiki-chat==0.2.0) (1.45.2)
+Requirement already satisfied: anyio in ./.venv/lib/python3.12/site-packages (from httpx>=0.27->dice-wiki-chat==0.2.0) (4.16.0)
+Requirement already satisfied: certifi in ./.venv/lib/python3.12/site-packages (from httpx>=0.27->dice-wiki-chat==0.2.0) (2026.10.23)
+Requirement already satisfied: httpcore==1.* in ./.venv/lib/python3.12/site-packages (from httpx>=0.27->dice-wiki-chat==0.2.0) (1.0.9)
+Requirement already satisfied: idna in ./.venv/lib/python3.12/site-packages (from httpx>=0.27->dice-wiki-chat==0.2.0) (3.20)
+Requirement already satisfied: h11>=0.16 in ./.venv/lib/python3.12/site-packages (from httpcore==1.*->httpx>=0.27->dice-wiki-chat==0.2.0) (0.16.0)
+Requirement already satisfied: jaraco.classes in ./.venv/lib/python3.12/site-packages (from keyring>=24->dice-wiki-chat==0.2.0) (3.4.0)
+Requirement already satisfied: jaraco.functools in ./.venv/lib/python3.12/site-packages (from keyring>=24->dice-wiki-chat==0.2.0) (4.6.0)
+Requirement already satisfied: jaraco.context in ./.venv/lib/python3.12/site-packages (from keyring>=24->dice-wiki-chat==0.2.0) (6.1.2)
+Requirement already satisfied: annotated-types>=0.6.0 in ./.venv/lib/python3.12/site-packages (from pydantic>=2.9.0->fastapi>=0.110->dice-wiki-chat==0.2.0) (0.8.0)
+Requirement already satisfied: pydantic-core==2.50.2 in ./.venv/lib/python3.12/site-packages (from pydantic>=2.9.0->fastapi>=0.110->dice-wiki-chat==0.2.0) (2.50.2)
+Requirement already satisfied: python-dotenv>=1.2.2 in ./.venv/lib/python3.12/site-packages (from pydantic-settings>=2.2->dice-wiki-chat==0.2.0) (1.2.4)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.venv/lib/python3.12/site-packages (from requests>=2.31->dice-wiki-chat==0.2.0) (3.5.2)
+Requirement already satisfied: urllib3<3,>=1.26 in ./.venv/lib/python3.12/site-packages (from requests>=2.31->dice-wiki-chat==0.2.0) (2.8.0)
+Requirement already satisfied: shellingham>=1.3.0 in ./.venv/lib/python3.12/site-packages (from typer>=0.12->dice-wiki-chat==0.2.0) (1.5.4)
+Requirement already satisfied: rich>=13.8.0 in ./.venv/lib/python3.12/site-packages (from typer>=0.12->dice-wiki-chat==0.2.0) (15.0.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./.venv/lib/python3.12/site-packages (from rich>=13.8.0->typer>=0.12->dice-wiki-chat==0.2.0) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./.venv/lib/python3.12/site-packages (from rich>=13.8.0->typer>=0.12->dice-wiki-chat==0.2.0) (2.21.0)
+Requirement already satisfied: mdurl~=0.1 in ./.venv/lib/python3.12/site-packages (from markdown-it-py>=2.2.0->rich>=13.8.0->typer>=0.12->dice-wiki-chat==0.2.0) (0.1.2)
+Requirement already satisfied: click>=7.0 in ./.venv/lib/python3.12/site-packages (from uvicorn>=0.27->uvicorn[standard]>=0.27->dice-wiki-chat==0.2.0) (8.5.0)
+Requirement already satisfied: httptools>=0.8.0 in ./.venv/lib/python3.12/site-packages (from uvicorn[standard]>=0.27->dice-wiki-chat==0.2.0) (0.9.0)
+Requirement already satisfied: pyyaml>=5.1 in ./.venv/lib/python3.12/site-packages (from uvicorn[standard]>=0.27->dice-wiki-chat==0.2.0) (6.0.3)
+Requirement already satisfied: uvloop>=0.15.1 in ./.venv/lib/python3.12/site-packages (from uvicorn[standard]>=0.27->dice-wiki-chat==0.2.0) (0.23.0)
+Requirement already satisfied: watchfiles>=0.20 in ./.venv/lib/python3.12/site-packages (from uvicorn[standard]>=0.27->dice-wiki-chat==0.2.0) (1.3.0)
+Requirement already satisfied: websockets>=13.0 in ./.venv/lib/python3.12/site-packages (from uvicorn[standard]>=0.27->dice-wiki-chat==0.2.0) (17.4)
+Requirement already satisfied: more-itertools in ./.venv/lib/python3.12/site-packages (from jaraco.classes->keyring>=24->dice-wiki-chat==0.2.0) (11.2.1)
+Building wheels for collected packages: dice-wiki-chat
+  Building editable for dice-wiki-chat (pyproject.toml) ... [?25ldone
+[?25h  Created wheel for dice-wiki-chat: filename=dice_wiki_chat-0.2.0-py3-none-any.whl size=8253 sha256=ba9436cea5f3ddbfb486f21388e90078bc16e69a343d8b8fcece8cd81de56079
+  Stored in directory: /private/var/folders/h2/f5y2g86n3h1ccnvhv9n79lgh0000gn/T/pip-ephem-wheel-cache-_g9x0z3m/wheels/ef/e5/e2/3a50fcd971a132e5beff25551fc4b44e26f76f058efbb1d6ef
+Successfully built dice-wiki-chat
+Installing collected packages: dice-wiki-chat
+  Attempting uninstall: dice-wiki-chat
+    Found existing installation: dice-wiki-chat 0.2.0
+    Uninstalling dice-wiki-chat-0.2.0:
+      Successfully uninstalled dice-wiki-chat-0.2.0
+Successfully installed dice-wiki-chat-0.2.0
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[J(.venv) hamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004h[7mwikichat index[27m
+[K[A[58C[27mw[27mi[27mk[27mi[27mc[27mh[27ma[27mt[27m [27mi[27mn[27md[27me[27mx[1B[K[?2004l
+01:23:10 INFO Hid 9 secret-looking values (passwords, keys, tokens)
+Indexed 116 pages into 691 chunks (9 secret-looking values hidden, 0 pages excluded).
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Hamadas-MacBook-Air.local/Users/hamadazahera/Downloads/dice-wiki-chat[0m[27m[24m[J(.venv) hamadazahera@Hamadas-MacBook-Air dice-wiki-chat % [K[?2004h[7mscripts/start.sh[27m[16D[27ms[27mc[27mr[27mi[27mp[27mt[27ms[27m/[27ms[27mt[27ma[27mr[27mt[27m.[27ms[27mh[?2004l
+Starting DICE Wiki Chat at http://127.0.0.1:8000 (Ctrl + C to stop)
+[32mINFO[0m:     Started server process [[36m6056[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     127.0.0.1:51370 - "[1mGET /api/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51371 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51371 - "[1mGET /static/brand/logo.svg HTTP/1.1[0m" [33m304 Not Modified[0m
+[32mINFO[0m:     127.0.0.1:51371 - "[1mGET /api/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51371 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51371 - "[1mGET /api/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51371 - "[1mGET /static/brand/favicon.svg HTTP/1.1[0m" [33m304 Not Modified[0m
+[32mINFO[0m:     127.0.0.1:51373 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51374 - "[1mGET /static/vendor/marked.min.js?v=0.2.0 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51373 - "[1mGET /static/app.css?v=0.2.0 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51375 - "[1mGET /static/vendor/purify.min.js?v=0.2.0 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51376 - "[1mGET /static/app.js?v=0.2.0 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51377 - "[1mGET /static/brand/logo.svg HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51377 - "[1mGET /api/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51378 - "[1mPOST /api/chat HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51399 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51399 - "[1mGET /static/app.css?v=0.2.0 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51400 - "[1mGET /static/vendor/marked.min.js?v=0.2.0 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51403 - "[1mGET /static/brand/logo.svg HTTP/1.1[0m" [33m304 Not Modified[0m
+[32mINFO[0m:     127.0.0.1:51401 - "[1mGET /static/vendor/purify.min.js?v=0.2.0 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51402 - "[1mGET /static/app.js?v=0.2.0 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51400 - "[1mGET /api/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51404 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51404 - "[1mGET /api/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51404 - "[1mGET /static/brand/favicon.svg HTTP/1.1[0m" [33m304 Not Modified[0m
+[32mINFO[0m:     127.0.0.1:51405 - "[1mPOST /api/chat HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51414 - "[1mPOST /api/chat HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51422 - "[1mPOST /api/chat HTTP/1.1[0m" [32m200 OK[0m

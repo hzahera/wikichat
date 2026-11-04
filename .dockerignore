@@ -1,0 +1,13 @@
+.git
+.github
+.venv
+venv
+.env
+.env.*
+data
+docs
+tests
+**/__pycache__
+*.egg-info
+*.log
+.DS_Store

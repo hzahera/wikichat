@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" role="img" aria-label="WikiChat">
+  <defs>
+    <linearGradient id="wm-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e3a5b"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+    <linearGradient id="wm-page" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#wm-bg)"/>
+  <path d="M19 14h26a9 9 0 0 1 9 9v14a9 9 0 0 1-9 9H30l-9.5 7.5a1.2 1.2 0 0 1-1.9-1.2L20 46h-1a9 9 0 0 1-9-9V23a9 9 0 0 1 9-9z" fill="#fff"/>
+  <path d="M32 24.5c-3.6-2.3-7.8-2.9-12-1.8v14.6c4.2-1.1 8.4-.5 12 1.8z" fill="url(#wm-page)"/>
+  <path d="M32 24.5c3.6-2.3 7.8-2.9 12-1.8v14.6c-4.2-1.1-8.4-.5-12 1.8z" fill="url(#wm-page)" opacity=".8"/>
+  <path d="M32 24.5v14.6" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="51" cy="13" r="5" fill="#7ff3df" stroke="#0e3a5b" stroke-width="2.5"/>
+  <text x="80" y="43" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#0e3a5b">Wiki<tspan fill="#0f766e">Chat</tspan></text>
+</svg>
