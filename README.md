@@ -1,4 +1,6 @@
-![WikiChat logo](src/wikichat/static/brand/logo.svg)
+<p align="center">
+  <img src="src/wikichat/static/brand/logo.svg" alt="WikiChat logo" width="120">
+</p>
 
 # WikiChat
 
@@ -39,6 +41,7 @@ It works with any MediaWiki: public or behind a login, in any language (German a
 - [Deployment](#deployment)
 - [All settings](#all-settings)
 - [Commands](#commands)
+- [How it works](#how-it-works)
 - [Development](#development)
 
 ## Quick start
